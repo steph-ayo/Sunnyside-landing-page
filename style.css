@@ -1,0 +1,670 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Styling of navbar */
+nav {
+    background-color: transparent;
+}
+.container-fluid {
+    margin-top: 1%;
+}
+.navbar-brand {
+    color: white;
+    margin-left: 5%;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-nav {
+    margin-left: 55%;
+}
+.nav-link {
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: white;
+}
+#contact {
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-weight: 700;
+}
+#contact:hover {
+    color: white;
+    background-color: rgb(225, 225, 225, 0.6);
+}
+
+/* Stying of header */
+header {
+    width: 100%;
+    height: 110vh;
+    background-image: url(/Images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-text {
+    width: max-content;
+    margin: auto;
+    margin-top: 6%;
+    text-align: center;
+}
+.header-text h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+.arrow-icon {
+    margin-top: 13%;
+}
+
+.row {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.col {
+    border: none;
+    height: 10vh;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+/* Styling of grid container */
+#grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6 {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 100% 90vh;
+}
+#grid-7, #grid-8, #grid-9 {
+    height : 85vh;
+}
+#grid-10, #grid-11, #grid-12, #grid-13 {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+}
+
+#grid-2 {
+    background-image: url(./Images/image-transform-desktop.jpg);
+}
+#grid-3 {
+    background-image: url(./Images/image-stand-out-desktop.jpg);
+}
+#grid-5 {
+    background-image: url(./Images/image-graphic-design-desktop.jpg);
+}
+#grid-6 {
+    background-image: url(./Images/image-photography-desktop.jpg);
+}
+#grid-10 {
+    background-image: url(./Images/image-gallery-milkbottles-desktop.jpg);
+}
+#grid-11 {
+    background-image: url(./Images/image-gallery-orange-desktop.jpg);
+}
+#grid-12 {
+    background-image: url(./Images/image-gallery-cone-desktop.jpg);
+}
+#grid-13 {
+    background-image: url(./Images/image-gallery-sugarcubes-desktop.jpg);
+}
+
+/* Styling of grid-1 */
+.grid-1-content {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.grid-1-maj-text {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.grid-1-paragraph-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(210, 2%, 51%);
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+.grid-1-min-text {
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 7px solid hsl(51, 100%, 49%);
+    cursor: pointer;
+}
+
+/* Styling of grid 4 */
+.grid-4-content {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+.grid-4-maj-text {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.grid-4-paragraph-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(210, 2%, 51%);
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+.grid-4-min-text {
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 7px solid pink;
+    cursor: pointer;
+}
+
+/* Styling of grid 5 */
+.grid-5-content {
+    width: 55%;
+    margin: auto;
+    margin-top: 60%;
+    text-align: center;
+}
+.grid-5-maj-text {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.grid-5-paragraph-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    color: hsl(168, 47%, 27%);
+}
+
+/* Styling of grid 6 */
+.grid-6-content {
+    width: 55%;
+    margin: auto;
+    margin-top: 60%;
+    text-align: center;
+}
+.grid-6-maj-text {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: hsl(198, 62%, 26%);
+}
+.grid-6-paragraph-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    color: hsl(198, 62%, 26%);
+}
+/* Styling of grid-extra */
+#grid-extra {
+    height: 25vh;
+}
+.grid-extra-text {
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+    margin-top: 8rem;
+    letter-spacing: 5px;
+}
+
+/* Styling of grid 7 */
+.grid-7-content {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 15%;
+    text-align: center;
+}
+.grid-7-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+.grid-7-paragraph-text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-bottom: 45px;
+}
+.grid-7-min-text {
+    font-weight: 900;
+}
+.grid-7-min-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(210, 4%, 67%);
+}
+
+/* Styling of grid 8 */
+.grid-8-content {
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+.grid-8-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+.grid-8-paragraph-text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-bottom: 45px;
+}
+.grid-8-min-text {
+    font-weight: 900;
+}
+.grid-8-min-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(210, 4%, 67%);
+}
+
+/* Styling of grid 9 */
+.grid-9-content {
+    width: 80%;
+    margin-right: 20%;
+    margin-top: 15%;
+    text-align: center;
+}
+.grid-9-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+.grid-9-paragraph-text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-bottom: 45px;
+}
+.grid-9-min-text {
+    font-weight: 900;
+}
+.grid-9-min-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(210, 4%, 67%);
+}
+
+/* Styling of footer section*/
+footer {
+    height: 50vh;
+    background-color: hsl(168, 34%, 41%, 0.6);
+}
+/* Styling of footer content */
+.footer-content {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+}
+h2 {
+    font-weight: 900;
+    color: hsl(168, 47%, 27%);
+}
+/* Styling of footer links */
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.footer-links a {
+    font-size: 20px;
+    color: hsl(168, 47%, 27%);
+    text-decoration: none;
+    margin-right: 3rem;
+}
+/* Styling of footer icons */
+.footer-icons {
+    justify-content: space-around;
+    cursor: pointer;
+}
+.footer-icons img {
+    margin-left: 1rem;
+}
+
+.nav-link, .grid-1-paragraph-text,
+.grid-4-paragraph-text, .grid-5-paragraph-text,
+.grid-6-paragraph-text, .grid-7-paragraph-text,
+.grid-7-min-text2 .grid-8-paragraph-text,
+.grid-8-min-text2 .grid-9-paragraph-text,
+.grid-9-min-text2, .footer-links a {
+    font-family: 'Barlow', sans-serif;
+}
+.navbar-brand, #contact, .header-text h1, .grid-1-maj-text,
+.grid-1-min-text, .grid-1-maj-text, .grid-1-min-text,
+.grid-5-maj-text, .grid-6-maj-text, .grid-extra-text,
+.grid-7-min-text, .grid-8-min-text, .grid-9-min-text {
+    font-family: 'Fraunces', serif;
+}
+
+@media screen and (max-width: 912px) {
+    /* Styling of navbar */
+    .container-fluid {
+        width: 90%;
+        margin: auto;
+    }
+    .navbar-brand {
+        margin-left: 0%;
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+        margin-left: 0;
+        background-color: white;
+        text-align: center;
+    }
+    .nav-link {
+        color: grey;
+        margin-left: 0rem;
+        padding: 15px;
+    }
+    #contact {
+        margin: auto;
+        background-color: hsl(51, 100%, 49%);
+        margin-bottom: 30px;
+    }
+    /* Stying of header */
+    header {
+        height: 40vh;
+        background-size: 100% 40vh;
+    }
+    .arrow-icon {
+        margin-top: 1.5%;
+    }
+    /* Styling of grid container */
+    #grid-1, #grid-2, #grid-3, #grid-4 {
+        height: 40vh;
+        background-size: 100% 40vh;
+    }
+    #grid-5, #grid-6 {
+        height: 60vh;
+        background-size: 100% 60vh;
+    }
+    #grid-7, #grid-8, #grid-9 {
+        height : 40vh;
+    }
+    #grid-10, #grid-11, #grid-12, #grid-13 {
+        height: 30vh;
+        background-size: 100% 30vh;
+    }
+    /* Styling of grid-extra */
+    #grid-extra {
+        height: 10vh;
+    }
+    .grid-extra-text {
+        margin-top: 4rem;
+    }
+    /* Styling of grid-1 */
+    .grid-1-content {
+        width: 70%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+    }
+    .grid-1-min-text {
+        margin: auto;
+    }
+    .grid-4-content {
+        width: 70%;
+        margin: auto;
+        margin-top: 20%;
+        text-align: center;
+    }
+    .grid-4-min-text {
+        margin: auto;
+    }
+    .grid-7-content {
+        margin-top: 4rem;
+        margin-left: 0%;
+        margin: auto;
+    }
+    .grid-9-content {
+        margin-top: 15%;
+        margin-right: 0%;
+        margin: auto;
+    }
+    /* Styling of footer section*/
+    footer {
+        height: 30vh;
+    }
+    .footer-content {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+     /* Stying of header */
+    header {
+        height: 60vh;
+        background-image: url(./Images/image-header-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 60vh;
+    }
+    .arrow-icon {
+        margin-top: 20%;
+    }
+    /* Styling of grid container */
+    #grid-1, #grid-2, #grid-3, #grid-4 {
+        height: 53vh;
+        background-size: 100% 53vh;
+    }
+    #grid-5, #grid-6 {
+        height: 70vh;
+        background-size: 100% 70vh;
+    }
+    #grid-7, #grid-8, #grid-9 {
+        height : 45vh;
+    }
+    #grid-10, #grid-11, #grid-12, #grid-13 {
+        height: 30vh;
+        background-size: 100% 30vh;
+    }
+     /* Styling of grid-extra */
+     #grid-extra {
+        height: 15vh;
+    }
+    .grid-7-content {
+        margin-top: 4rem;
+        margin-left: 0%;
+        margin: auto;
+    }
+    .grid-9-content {
+        margin-top: 15%;
+        margin-right: 0%;
+        margin: auto;
+    }
+    /* Styling of footer section*/
+    footer {
+        height: 40vh;
+    }
+    .footer-content {
+        padding-top: 5%;
+    }
+    #grid-2 {
+        background-image: url(./Images/image-transform-mobile.jpg);
+    }
+    #grid-3 {
+        background-image: url(./Images/image-stand-out-mobile.jpg);
+    }
+    #grid-5 {
+        background-image: url(./Images/image-graphic-design-mobile.jpg);
+    }
+    #grid-6 {
+        background-image: url(./Images/image-photography-mobile.jpg);
+    }
+    #grid-10 {
+        background-image: url(./Images/image-gallery-milkbottles-mobile.jpg);
+    }
+    #grid-11 {
+        background-image: url(./Images/image-gallery-orange-mobile.jpg);
+    }
+    #grid-12 {
+        background-image: url(./Images/image-gallery-cone-mobile.jpg);
+    }
+    #grid-13 {
+        background-image: url(./Images/image-gallery-sugar-cubes-mobile.jpg);
+    }
+}
+
+/* MEDIA QUERY FOR 414px */
+@media screen and (max-width: 414px) {
+    .arrow-icon {
+        margin-top: 10%;
+    }
+    .grid-1-content {
+        width: 90%;
+    }
+    .grid-4-content {
+        width: 90%;
+    }
+    #grid-5, #grid-6 {
+        height: 70vh;
+        background-size: 100% 70vh;
+    }
+    .grid-5-content {
+        width: 90%;
+        margin-top: 95%;
+    }
+    .grid-6-content {
+        width: 90%;
+        margin-top: 95%;
+    }
+    #grid-7, #grid-8, #grid-9 {
+        height : 50vh;
+    }
+    #grid-10, #grid-11, #grid-12, #grid-13 {
+        height: 25vh;
+        background-size: 100% 25vh;
+    }
+    .footer-content {
+        padding-top: 8%;
+    }
+}
+
+/* MEDIA QUERY FOR 375px */
+@media screen and (max-width: 375px) { 
+    header {
+        height: 70vh;
+        background-size: 100% 70vh;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .header-text h1{
+        font-size: 2.3rem;
+    }
+    .arrow-icon {
+        margin-top: 10%;
+    }
+    .grid-1-content {
+        width: 90%;
+    }
+    .grid-4-content {
+        width: 90%;
+    }
+    #grid-5, #grid-6 {
+        height: 70vh;
+        background-size: 100% 70vh;
+    }
+    .grid-5-content {
+        width: 90%;
+        margin-top: 75%;
+    }
+    .grid-6-content {
+        width: 90%;
+        margin-top: 75%;
+    }
+    #grid-1, #grid-4 {
+        height: 68vh;
+    }
+    #grid-2, #grid-3 {
+        height: 50vh;
+        background-size: 100% 50vh;
+    }
+    #grid-5 {
+        height: 75vh;
+        background-size: 100% 75vh;
+    }
+    #grid-6 {
+        height: 73vh;
+        background-size: 100% 73vh;
+    }
+    #grid-7, #grid-8, #grid-9 {
+        height : 65vh;
+    }
+    #grid-10, #grid-11, #grid-12, #grid-13 {
+        height: 25vh;
+        background-size: 100% 25vh;
+    }
+    /* Styling of footer section*/
+    footer {
+        height: 55vh;
+    }
+    .footer-content {
+        padding-top: 8%;
+    }
+    .footer-content h2 {
+        font-size: 2rem;
+    }
+    .grid-1-maj-text, .grid-4-maj-text {
+        font-size: 2rem;
+    }
+    .grid-1-paragraph-text, .grid-4-paragraph-text {
+        font-size: 17px;
+    }
+    .grid-5-paragraph-text, .grid-6-paragraph-text {
+        font-size: 16px;
+    }
+    .grid-extra-text {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+    .grid-7-paragraph-text, .grid-8-paragraph-text, .grid-9-paragraph-text {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 2rem;
+        margin-bottom: 45px;
+    }
+    .grid-7-min-text, .grid-8-min-text, .grid-9-min-text {
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+    }
+    .grid-7-min-text2, .grid-8-min-text2, .grid-9-min-text2 {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(210, 4%, 67%);
+    }
+}
